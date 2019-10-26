@@ -19,6 +19,6 @@ python scripts.
 -lib_transcript : python library wich transform speach into text
 -lib_wikipedia : python library which allows to seach things on wikipedia
 -save_RFIDcards : python script to save 3 RFID uids
--training_ai : python script to save vocal commands to better recognize them after
+-training_ai (optional) : python script to save vocal commands to better recognize them after
 
 ==============================================================================================
