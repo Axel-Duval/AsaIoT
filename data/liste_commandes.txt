@@ -1,7 +1,0 @@
-- quelle heure est-il
-- quel temps fait-il
-- bourse
-- actualité
-- wikipedia + mot a rechercher
-- bonne nuit
-- bonjour

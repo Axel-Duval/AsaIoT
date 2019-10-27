@@ -15,10 +15,11 @@ python scripts.
 -audio : repository which contains all .mp3 files
 -data : repository wich contains all data files
 -lib_arduino : python library wich get RFID uids form arduino's port
+-lib_file : python library to manipulate files
 -lib_speak : python library wich transform text into .mp3 file
 -lib_transcript : python library wich transform speach into text
--lib_wikipedia : python library which allows to seach things on wikipedia
+-lib_wikipedia : python library which allows to search things on wikipedia
 -save_RFIDcards : python script to save 3 RFID uids
--training_ai (optional) : python script to save vocal commands to better recognize them after
+-save_user : python script to save a user wich need 3 sys.argv --> 1(username) 2(wifi name) 3(wifi password)
 
 ==============================================================================================

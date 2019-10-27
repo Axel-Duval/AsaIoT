@@ -85,3 +85,9 @@ def save(data,path):
 			pickle.Pickler(file).dump(data)			#Enregistrement du tableau
 			return True
 	return False
+
+def clear(path):
+	liste = read(path)
+	for elt in liste:
+		remove(elt,path)
+	return True

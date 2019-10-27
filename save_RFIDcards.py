@@ -3,13 +3,13 @@ import lib_file as file
 import re
 
 #Main
-file.init("data_uid")
-while (len(file.read())<3):
+file.init("data/uids")
+while (len(file.read("data/uids"))<3):
 	print("Waiting for a card :")
 	res = arduino.get_uid()
 	r = re.compile('.*-.*-.*-.*-.*-.*')
 	if r.match(res) is not None:
-		file.add(res)
+		file.add(res,"data/uids")
 	else:
-		return TypeError
-	print(file.read())
+		print("Error")
+	print(file.read("data/uids"))
